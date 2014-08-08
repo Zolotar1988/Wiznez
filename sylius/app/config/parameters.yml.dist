@@ -16,7 +16,7 @@ parameters:
     sylius.locale:                    en
     sylius.secret:                    abc
 
-    sylius.currency:                  EUR
+    sylius.currency:                  USD
 
     sylius.cache:
         type: file_system
