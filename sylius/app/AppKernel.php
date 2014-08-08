@@ -29,4 +29,9 @@ class AppKernel extends Kernel
 
         return array_merge(parent::registerBundles(), $bundles);
     }
+    public function init()
+    {
+        date_default_timezone_set( 'Europe/Moscow' );
+        parent::init();
+    }
 }
